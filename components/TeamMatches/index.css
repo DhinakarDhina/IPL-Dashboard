@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.team-matches-container {
+  background-size: cover;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.team-matches-banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.team-banner-img {
+  width: 80%;
+  max-width: 400px;
+}
+
+@media (min-width: 992px) {
+  .team-banner-img {
+    width: 50%;
+  }
+}
+
+.latest-match-container {
+  margin-bottom: 30px;
+}
+
+.recent-matches-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recent-matches-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif', serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+@media (min-width: 992px) {
+  .recent-matches-heading {
+    align-self: flex-start;
+  }
+}
+
+.match-cards-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  .match-cards-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}

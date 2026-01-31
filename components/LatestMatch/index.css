@@ -1,0 +1,123 @@
+.latest-match-card {
+  background-color: #2a364c;
+  border: 1px solid #475569;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.match-teams-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.team-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-name {
+  color: #ffffff;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.team-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.first-innings,
+.second-innings {
+  color: #18ed66;
+  font-size: 14px;
+  margin: 0;
+}
+
+.second-innings {
+  color: #e31a1a;
+}
+
+.innings-team {
+  color: #ffffff;
+  font-family: 'Bree Serif', serif;
+  font-size: 16px;
+  margin: 5px 0 0;
+}
+
+.match-details-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 992px) {
+  .match-details-section {
+    flex-direction: row;
+  }
+}
+
+.match-details {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.match-detail {
+  color: #475569;
+  font-size: 14px;
+  margin: 0 0 5px;
+}
+
+.match-value {
+  color: #ffffff;
+  font-family: 'Bree Serif', serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.status-won {
+  align-self: flex-end;
+  background-color: #18ed66;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+@media (min-width: 992px) {
+  .status-won {
+    margin-top: 0;
+  }
+}
+
+.won-text {
+  color: #000000;
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+.status-lost {
+  align-self: flex-end;
+  background-color: #e31a1a;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+@media (min-width: 992px) {
+  .status-lost {
+    margin-top: 0;
+  }
+}
+
+.lost-text {
+  color: #ffffff;
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  margin: 0;
+}
